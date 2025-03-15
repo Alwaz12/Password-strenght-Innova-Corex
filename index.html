@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Password Strength Checker</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h1 class="text-center">Password Strength Checker</h1>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" />
+            <p><b>Inputted Password : </b><span id="ipass"></span></p>
+            <div id="password-strength" class="progress mt-2">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div id="password-conditions" class="mt-2">
+                <ul>
+                    <li>  <div class="password-condition">At least 1 lowercase letter </div></li>    
+                    <li><div class="password-condition">At least 1 uppercase letter</div></li>
+                    <li><div class="password-condition">At least 1 digit</div></li>
+                    <li><div class="password-condition">At least 1 special character</div></li>
+                    <li><div class="password-condition">At least 8 characters long</div></li>
+                    <li><div class="password-condition">At least 12 characters long</div></li>
+            </ul>
+
+            </div>
+          </div>
+          
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

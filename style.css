@@ -1,0 +1,35 @@
+#password-strength {
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  #password-strength .progress-bar {
+    border-radius: 5px;
+  }
+  
+  #password-strength .bg-danger {
+    background-color: red;
+  }
+  
+  #password-strength .bg-warning {
+    background-color: orange;
+  }
+  
+  #password-strength .bg-success {
+    background-color: green;
+  }
+  
+  #password-conditions .password-condition {
+    margin-top: 2px;
+    width: 50%;
+    color: grey;
+  }
+  
+  #password-conditions .password-condition.met {
+    background-color: green;
+    color: #fff;
+  }
+  p{
+    margin-top: 5px;
+    font-size: 22px;
+  }
